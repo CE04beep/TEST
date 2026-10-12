@@ -29,7 +29,7 @@ function Graphics() {
                 "</div>" +
                 "<div class='coin silver' ng-class='{\"gold\" : "+isFirst+"}'><p>{{"+pbar+".row+1}}</p></div>" +
                 "<div class='gainAmount'>+{{intToStringRound("+pbar+".totalResGain)}}</div>" +
-                "<img class='speedIcon' src='icons/speed.png' height='100%' width='100%'/>"+
+                "<img class='speedIcon' src='speed.png' height='100%' width='100%'/>"+
                 "<div class='speedMult'>{{intToStringRound("+pbar+".speedMult)}}%</div>" +
                 "<div class='pbuyButton buySpeed' ng-click='"+pbar+".buySpeed()' " +
                     "ng-mouseover=\""+pbar+".mouseOverUpgrade(0)\" " +
